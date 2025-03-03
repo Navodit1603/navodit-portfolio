@@ -7,7 +7,7 @@ export default function Home(){
                 className="w-full h-screen bg-cover bg-center"
                 style={{ backgroundImage: `url(${bg1})` }}
             >
-                <h1>Hello</h1>
+                <h1>Hello W</h1>
             </div>
         </div>
     )
