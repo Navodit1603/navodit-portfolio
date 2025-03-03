@@ -2,21 +2,26 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/Header';
-import Test from './components/Test';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
 
     return (
         <div className="snap-y snap-mandatory overflow-y-scroll h-screen ">
             <div className="snap-always snap-center">
-                <Header />
+                <Home />
             </div>
             <div className="snap-always snap-center" >
-                <Test />
+                <About />
             </div>
             <div className="snap-always snap-center">
-                <Header />
+                <Projects />
+            </div>
+            <div className="snap-always snap-center" >
+                <Skills />
             </div>
         </div>
     );
